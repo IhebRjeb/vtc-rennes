@@ -71,13 +71,11 @@ Ce projet consiste en le développement d'un site web permettant la présentatio
 2. Installer les dépendances :
    ```sh
    npm install  # Pour un projet Node.js
-   pip install -r requirements.txt  # Pour un projet Python
    ```
 3. Configurer la base de données dans `.env`.
 4. Lancer le serveur :
    ```sh
    npm start  # Pour un projet Node.js
-   python manage.py runserver  # Pour un projet Django
    ```
 5. Accéder au site via `http://localhost:3000` (ou l'URL définie).
 
