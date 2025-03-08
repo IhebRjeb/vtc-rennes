@@ -1,14 +1,11 @@
-import Head from 'next/head'
-import ServicesClient from '../../components/ServicesClient'
+import type { Metadata } from 'next'
+import ServicesClient from '@/components/ServicesClient'
+
+export const metadata: Metadata = {
+  title: 'Services VTC Premium à Rennes | VTC Rennes',
+  description: 'Découvrez nos services de transport VTC à Rennes : transport de luxe, service aéroport, événementiel. Chauffeurs professionnels, véhicules haut de gamme, disponible 24/7.',
+}
 
 export default function Services() {
-  return (
-    <>
-      <Head>
-        <title>Nos Services VTC à Rennes</title>
-        <meta name="description" content="Découvrez nos services de VTC à Rennes : transport de luxe, transport de groupe, service à la demande. Calculez votre tarif en ligne." />
-      </Head>
-      <ServicesClient />
-    </>
-  )
+  return <ServicesClient />
 }

@@ -19,19 +19,19 @@ export default function HeroSection() {
       {/* Content Overlay */}
       <div className="absolute inset-0 bg-blue-600/70">
         <div className="container mx-auto px-4 py-12">
-          <h1 className="text-white text-4xl md:text-6xl font-bold mb-6">
+          <h1 className="text-white text-4xl md:text-6xl font-bold mb-6 text-center">
             VTC Rennes - Réservez votre chauffeur
           </h1>
 
           {/* Benefits */}
-          <div className="flex flex-wrap gap-6 text-white mb-8">
+          <div className="flex flex-wrap justify-center gap-6 text-white mb-8">
             {[
               "Annulation gratuite sur la plupart des réservations",
               "Service disponible 24/7",
               "Support client en français et en anglais",
             ].map((benefit, index) => (
               <div key={index} className="flex items-center gap-2">
-                <span className="text-lg">✓</span>
+                <span className="text-lg bg-white/20 rounded-full w-6 h-6 flex items-center justify-center text-white">✓</span>
                 <span>{benefit}</span>
               </div>
             ))}
