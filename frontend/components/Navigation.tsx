@@ -14,7 +14,7 @@ export default function Navigation() {
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
               <Link href="/" className="text-xl font-bold text-blue-600">
-                VTC Rennes
+                BLUE LUXURY VTC
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">

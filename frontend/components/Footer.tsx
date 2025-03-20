@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             {/* Company Info */}
             <div>
-              <h3 className="text-xl font-bold mb-4">VTC Rennes</h3>
+              <h3 className="text-xl font-bold mb-4">BLUE LUXURY VTC</h3>
               <p className="text-gray-400 mb-4">
                 Service de chauffeur privé à Rennes et ses environs. Disponible 24/7 pour tous vos déplacements.
               </p>
@@ -158,7 +158,7 @@ export default function Footer() {
           </div>
 
           <div className="text-center text-gray-500 text-xs pt-4">
-            <p>© {currentYear} VTC Rennes. Tous droits réservés.</p>
+            <p>© {currentYear} BLUE LUXURY VTC. Tous droits réservés.</p>
           </div>
         </div>
       </footer>
@@ -169,7 +169,7 @@ export default function Footer() {
           {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "VTC Rennes",
+            "name": "BLUE LUXURY VTC",
             "image": "https://www.vtc-rennes.fr/images/logo.jpg",
             "@id": "https://www.vtc-rennes.fr",
             "url": "https://www.vtc-rennes.fr",

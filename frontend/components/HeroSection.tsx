@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <Image
           src="/images/vtc-background.jpg"
-          alt="VTC Rennes background"
+          alt="BLUE LUXURY VTC background"
           fill
           className="object-cover brightness-50"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 1920px"
@@ -20,7 +20,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-blue-600/70">
         <div className="container mx-auto px-4 py-12">
           <h1 className="text-white text-4xl md:text-6xl font-bold mb-6 text-center">
-            VTC Rennes - Réservez votre chauffeur
+            BLUE LUXURY VTC - Réservez votre chauffeur
           </h1>
 
           {/* Benefits */}

@@ -1,4 +1,4 @@
-# README - Site Web VTC Rennes
+# README - Site Web BLUE LUXURY VTC
 
 ## 1. Introduction
 
